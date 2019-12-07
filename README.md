@@ -44,7 +44,7 @@ spring.datasource.password=<senha do mysql>
 
 2. Instale o Node.js
 
-3. Selecione a pasta transpco-web no Visual Studio Code.
+3. Selecione a pasta transpco-front-end no Visual Studio Code.
 
 4. Abre o terminal e digite os comandos para instalação de pacotes e dependências:
 ```
