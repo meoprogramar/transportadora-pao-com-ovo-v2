@@ -1,0 +1,125 @@
+2019-12-02 18:39:10,455 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TranspcoApplication on DESKTOP-0O5U4EA with PID 11880 (D:\Windows\Documentos\EclipseProjects\TransPCO-master\target\classes started by Estêvão in D:\Windows\Documentos\EclipseProjects\TransPCO-master)
+2019-12-02 18:39:10,458 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-12-02 18:39:10,658 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-02 18:39:10,658 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-02 18:39:11,301 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-02 18:39:11,354 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 47ms. Found 3 repository interfaces.
+2019-12-02 18:39:11,654 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59bc42d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-02 18:39:12,087 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-12-02 18:39:12,170 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-02 18:39:12,186 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-12-02 18:39:12,186 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-02 18:39:12,306 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-12-02 18:39:12,306 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1648 ms
+2019-12-02 18:39:12,485 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-12-02 18:39:13,082 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-12-02 18:39:13,140 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-02 18:39:13,220 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.11.Final}
+2019-12-02 18:39:13,222 INFO org.hibernate.cfg.Environment [restartedMain] HHH000206: hibernate.properties not found
+2019-12-02 18:39:13,386 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-02 18:39:13,559 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-02 18:39:14,604 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/D:/Windows/Documentos/EclipseProjects/TransPCO-master/target/classes/import.sql)'
+2019-12-02 18:39:14,654 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-02 18:39:14,671 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-12-02 18:39:15,417 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-02 18:39:15,477 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-02 18:39:16,050 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-12-02 18:39:16,080 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-02 18:39:16,083 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TranspcoApplication in 5.85 seconds (JVM running for 6.247)
+2019-12-02 18:40:18,971 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-02 18:40:18,971 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-12-02 18:40:18,981 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2019-12-02 18:40:19,037 INFO br.com.brunocarol.transpco.controller.FranquiaController [http-nio-8080-exec-1] Listing 'Franquia' on data source
+2019-12-02 18:40:19,037 INFO br.com.brunocarol.transpco.controller.EncomendaController [http-nio-8080-exec-2] Listing 'Encomenda' on data source
+2019-12-02 18:40:19,038 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-2] Lista com todas as Encomendas
+2019-12-02 18:40:19,071 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2019-12-02 18:40:21,567 INFO br.com.brunocarol.transpco.controller.FranquiaController [http-nio-8080-exec-3] Listing 'Franquia' on data source
+2019-12-02 18:40:21,567 INFO br.com.brunocarol.transpco.controller.FuncionarioController [http-nio-8080-exec-4] Listing 'Funcionario' on data source
+2019-12-02 18:40:32,762 INFO br.com.brunocarol.transpco.controller.FranquiaController [http-nio-8080-exec-5] Listing 'Franquia' on data source
+2019-12-02 18:40:41,604 INFO br.com.brunocarol.transpco.controller.EncomendaController [http-nio-8080-exec-6] Listing 'Encomenda' on data source
+2019-12-02 18:40:41,604 INFO br.com.brunocarol.transpco.controller.FranquiaController [http-nio-8080-exec-7] Listing 'Franquia' on data source
+2019-12-02 18:40:41,605 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-6] Lista com todas as Encomendas
+2019-12-02 18:41:02,255 INFO br.com.brunocarol.transpco.controller.EncomendaController [http-nio-8080-exec-9] Calculating route 'Encomenda' on data source
+2019-12-02 18:41:02,271 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Adicionado com sucesso a Rota Parcialbr.com.brunocarol.transpco.model.Franquia@21
+2019-12-02 18:41:02,271 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Removido com sucesso br.com.brunocarol.transpco.model.Franquia@25
+2019-12-02 18:41:02,282 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Adicionado com sucesso
+2019-12-02 18:41:02,283 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Removido com sucesso br.com.brunocarol.transpco.model.Franquia@22
+2019-12-02 18:41:02,291 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Adicionado com sucesso
+2019-12-02 18:41:02,291 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Removido com sucesso br.com.brunocarol.transpco.model.Franquia@21
+2019-12-02 18:41:02,292 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Removido com sucesso br.com.brunocarol.transpco.model.Franquia@24
+2019-12-02 18:41:02,302 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Adicionado com sucesso
+2019-12-02 18:41:02,302 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Removido com sucesso br.com.brunocarol.transpco.model.Franquia@23
+2019-12-02 18:41:02,310 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Adicionado com sucesso
+2019-12-02 18:41:02,310 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] Tipo de Encomenda Normal br.com.brunocarol.transpco.model.Encomenda@1f
+2019-12-02 18:41:02,311 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-9] A Rota foi calculada com sucesso
+2019-12-02 18:41:02,334 INFO br.com.brunocarol.transpco.controller.EncomendaController [http-nio-8080-exec-2] Creating 'Encomenda' on data source
+2019-12-02 18:41:02,335 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-2] Encomenda salva com sucesso
+2019-12-02 18:41:02,407 INFO br.com.brunocarol.transpco.controller.EncomendaController [http-nio-8080-exec-1] Listing 'Encomenda' on data source
+2019-12-02 18:41:02,407 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-1] Lista com todas as Encomendas
+2019-12-02 18:41:53,948 INFO br.com.brunocarol.transpco.controller.EncomendaController [http-nio-8080-exec-4] Calculating route 'Encomenda' on data source
+2019-12-02 18:41:53,955 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Nós adicionado com sucesso br.com.brunocarol.transpco.dijkstra.Node@393dd30c
+2019-12-02 18:41:53,955 INFO br.com.brunocarol.transpco.dijkstra.Grafo [http-nio-8080-exec-4] Adicionado com sucesso
+2019-12-02 18:41:53,955 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Grafo salvo com os nós com sucessobr.com.brunocarol.transpco.dijkstra.Node@393dd30c
+2019-12-02 18:41:53,955 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Nós adicionado com sucesso br.com.brunocarol.transpco.dijkstra.Node@328b6c92
+2019-12-02 18:41:53,956 INFO br.com.brunocarol.transpco.dijkstra.Grafo [http-nio-8080-exec-4] Adicionado com sucesso
+2019-12-02 18:41:53,956 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Grafo salvo com os nós com sucessobr.com.brunocarol.transpco.dijkstra.Node@328b6c92
+2019-12-02 18:41:53,956 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Nós adicionado com sucesso br.com.brunocarol.transpco.dijkstra.Node@79b3514b
+2019-12-02 18:41:53,956 INFO br.com.brunocarol.transpco.dijkstra.Grafo [http-nio-8080-exec-4] Adicionado com sucesso
+2019-12-02 18:41:53,956 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Grafo salvo com os nós com sucessobr.com.brunocarol.transpco.dijkstra.Node@79b3514b
+2019-12-02 18:41:53,956 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Nós adicionado com sucesso br.com.brunocarol.transpco.dijkstra.Node@4ba0157a
+2019-12-02 18:41:53,957 INFO br.com.brunocarol.transpco.dijkstra.Grafo [http-nio-8080-exec-4] Adicionado com sucesso
+2019-12-02 18:41:53,957 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Grafo salvo com os nós com sucessobr.com.brunocarol.transpco.dijkstra.Node@4ba0157a
+2019-12-02 18:41:53,957 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Nós adicionado com sucesso br.com.brunocarol.transpco.dijkstra.Node@1c521ab1
+2019-12-02 18:41:53,957 INFO br.com.brunocarol.transpco.dijkstra.Grafo [http-nio-8080-exec-4] Adicionado com sucesso
+2019-12-02 18:41:53,957 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Grafo salvo com os nós com sucessobr.com.brunocarol.transpco.dijkstra.Node@1c521ab1
+2019-12-02 18:41:53,958 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Nós adicionado com sucesso br.com.brunocarol.transpco.dijkstra.Node@75d41a55
+2019-12-02 18:41:53,958 INFO br.com.brunocarol.transpco.dijkstra.Grafo [http-nio-8080-exec-4] Adicionado com sucesso
+2019-12-02 18:41:53,958 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Grafo salvo com os nós com sucessobr.com.brunocarol.transpco.dijkstra.Node@75d41a55
+2019-12-02 18:41:53,965 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Retornado com sucesso
+2019-12-02 18:41:53,966 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Remoção currentNode foi um sucesso
+2019-12-02 18:41:53,966 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@328b6c92
+2019-12-02 18:41:53,966 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@75d41a55
+2019-12-02 18:41:53,966 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@75d41a55
+2019-12-02 18:41:53,966 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@328b6c92
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@1c521ab1
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@1c521ab1
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@328b6c92
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@79b3514b
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@79b3514b
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Retornado com sucesso
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Remoção currentNode foi um sucesso
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@75d41a55
+2019-12-02 18:41:53,967 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@75d41a55
+2019-12-02 18:41:53,968 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@79b3514b
+2019-12-02 18:41:53,968 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@1c521ab1
+2019-12-02 18:41:53,968 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@1c521ab1
+2019-12-02 18:41:53,968 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Retornado com sucesso
+2019-12-02 18:41:53,968 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Remoção currentNode foi um sucesso
+2019-12-02 18:41:53,968 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@75d41a55
+2019-12-02 18:41:53,968 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@393dd30c
+2019-12-02 18:41:53,969 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@393dd30c
+2019-12-02 18:41:53,969 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Retornado com sucesso
+2019-12-02 18:41:53,969 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Remoção currentNode foi um sucesso
+2019-12-02 18:41:53,969 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@393dd30c
+2019-12-02 18:41:53,969 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@1c521ab1
+2019-12-02 18:41:53,969 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@1c521ab1
+2019-12-02 18:41:53,969 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@393dd30c
+2019-12-02 18:41:53,969 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@4ba0157a
+2019-12-02 18:41:53,970 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@4ba0157a
+2019-12-02 18:41:53,970 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Retornado com sucesso
+2019-12-02 18:41:53,970 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Remoção currentNode foi um sucesso
+2019-12-02 18:41:53,970 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Calculo realizadobr.com.brunocarol.transpco.dijkstra.Node@4ba0157a
+2019-12-02 18:41:53,970 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Inserido com sucesso br.com.brunocarol.transpco.dijkstra.Node@4ba0157a
+2019-12-02 18:41:53,970 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Retornado com sucesso
+2019-12-02 18:41:53,970 INFO br.com.brunocarol.transpco.dijkstra.Dijkstra [http-nio-8080-exec-4] Remoção currentNode foi um sucesso
+2019-12-02 18:41:53,970 INFO br.com.brunocarol.transpco.dijkstra.Grafo [http-nio-8080-exec-4] Lista de nós retornada com sucesso
+2019-12-02 18:41:53,971 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Rota retornada com sucesso [br.com.brunocarol.transpco.model.Franquia@21, br.com.brunocarol.transpco.model.Franquia@25, br.com.brunocarol.transpco.model.Franquia@20, br.com.brunocarol.transpco.model.Franquia@23]
+2019-12-02 18:41:53,971 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] Tipo de Encomenda Expressa br.com.brunocarol.transpco.model.Encomenda@1f
+2019-12-02 18:41:53,971 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-4] A Rota foi calculada com sucesso
+2019-12-02 18:41:53,983 INFO br.com.brunocarol.transpco.controller.EncomendaController [http-nio-8080-exec-5] Creating 'Encomenda' on data source
+2019-12-02 18:41:53,983 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-5] Encomenda salva com sucesso
+2019-12-02 18:41:54,008 INFO br.com.brunocarol.transpco.controller.EncomendaController [http-nio-8080-exec-6] Listing 'Encomenda' on data source
+2019-12-02 18:41:54,009 INFO br.com.brunocarol.transpco.service.EncomendaService [http-nio-8080-exec-6] Lista com todas as Encomendas
+2019-12-02 18:41:59,012 INFO br.com.brunocarol.transpco.controller.FranquiaController [http-nio-8080-exec-7] Listing 'Franquia' on data source

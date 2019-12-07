@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="TransPCO">
+<meta name="author" content="Carol e Bruno">
+
+<title>Funcionários - TransPCO</title>
+
+<!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/cerulean/bootstrap.min.css" rel="stylesheet"></link>
+
+<!-- Custom fonts for this template -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/5.0.9/css/grayscale.min.css"></link>
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background:#2FA4E7">
+    <div class="container">
+      <a style="color:#FFFFFF" class="navbar-brand js-scroll-trigger" href="/homeop">Transportadora Pão com Ovo</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+           		<a class="nav-link js-scroll-trigger" href="/clientes" style="color:#FFFFFF">Clientes</a>
+          </li>
+          <li class="nav-item">
+           		<a class="nav-link js-scroll-trigger" href="/encomendas" style="color:#FFFFFF">Encomendas</a>
+          </li>
+          <li class="nav-item">
+           		<a class="nav-link js-scroll-trigger" href="/franquias" style="color:#FFFFFF">Franquias</a>
+          </li>
+          <li class="nav-item">
+           		<a class="nav-link js-scroll-trigger" href="/funcionarios" style="color:#FFFFFF">Funcionários</a>
+          </li>
+          <li class="nav-item">
+           		<a class="nav-link js-scroll-trigger" href="/relatorio" style="color:#FFFFFF">Relatórios</a>
+          </li>
+          <li class="nav-item">
+        	    <a class="nav-link js-scroll-trigger" href="/login" style="color:#FFFFFF">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div style="margin:auto; width: 100%; margin-top:150px" class="container d-flex h-100 align-items-center">
+	<div  style="width:100%" class="panel panel-default">
+	
+		<div class="panel-heading">
+			<strong style="color:#FFFFFF"><h2>Editar Funcionário</h2></strong>
+		</div>
+		</br>
+
+
+
+		<div style="width: 100% !important;margin:auto" class="panel-body">
+			<div style="margin:auto; margin-right:0px;  width:120%">
+		
+		
+			<form class="form-horizontal" th:object="${funcionario}"
+				th:action="@{/funcionarios/editFuncionario}" method="POST"
+				style="margin: 10px">
+				<div class="form-group">
+					<fieldset>
+						<div class="form-group row">
+							<div class="alert alert-danger" th:if="${#fields.hasAnyErrors()}">
+								<div th:each="detailedError : ${#fields.detailedErrors()}">
+									<span th:text="${detailedError.message}"></span>
+								</div>
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-md-1">
+								<input type="text" class="form-control input-sm" id="id"
+									th:field="*{id}" readOnly="readonly" />
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-md-4"
+								th:classappend="${#fields.hasErrors('nome')}? 'has-error'">
+								<label>Nome</label> <input type="text"
+									class="form-control input-sm" th:field="*{nome}"
+									autofocus="autofocus" placeholder="Informe o nome"
+									maxlength="50" />
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-md-4"
+								th:classappend="${#fields.hasErrors('email')}? 'has-error'">
+								<label>Email</label> <input type="text"
+									class="form-control input-sm" th:field="*{email}"
+									maxlength="150" placeholder="Informe o email" />
+							</div>
+						</div>
+
+						<div class="form-group row">
+							<div class="col-md-4"
+								th:classappend="${#fields.hasErrors('senha')}? 'has-error'">
+								<label>Senha</label> <input type="text"
+									class="form-control input-sm" th:field="*{senha}"
+									maxlength="150" placeholder="Informe a senha" />
+							</div>
+						</div>
+
+
+					</fieldset>
+				</div>
+				<div style="margin:auto" class="form-group row">
+					<button type="submit" class="btn btn-sm btn-primary">Salvar</button>
+					<a th:href="@{/funcionarios}" class="btn btn-sm btn-default">Cancelar</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
