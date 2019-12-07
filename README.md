@@ -1,6 +1,5 @@
 # transportadora-pao-com-ovo-v2
 
-&nbsp;
 ### Descrição
 
 Projeto da disciplina de Programação WEB, professor Thiago Santana Batista.
@@ -24,12 +23,10 @@ Ferramentas utilizadas:
 - MySQL Workbench
 - Visual Studio Code
 
-&nbsp;
 ### Documentação passo-a-passo
 
 1. Clone o projeto na sua máquina e siga os passos para cada pasta, tanto no back-end quanto no front-end.
 
-&nbsp;
 #### Back-end
 
 2. No Eclipse vá em "File -> Import -> Maven -> Existing maven projects", aperte em "Next" e selecione onde está a pasta que foi extraida no passo anterior.
@@ -43,7 +40,6 @@ spring.datasource.password=<senha do mysql>
 ```
 5. Salve as mudanças, em seguida vá em "src/main/java -> br.com.brunocarol.transpco -> TranspcoApplication.java" clique com botão direito e siga "Run As" -> "Java Application", agora aguarde todo o processo de build do sistema.
 
-&nbsp;
 #### Front-end 
 
 2. Instale o Node.js
@@ -64,7 +60,6 @@ npm run serve -- --port 8081
 
 6. Depois do servidor inicializar, abra seu navegador em [http://localhost:8081/](http://localhost:8081/).
 
-&nbsp;
 ### Demostração
 
 ![1](https://user-images.githubusercontent.com/34866806/70369044-0831e180-1892-11ea-91b5-76926d6122d0.PNG)
