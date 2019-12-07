@@ -18,7 +18,47 @@ Tecnologias utilizadas:
 - Hibernate
 - MySQL
 
+Ferramentas utilizadas:
+- Eclipse Java EE IDE for Web Developers
+- MySQL Workbench
+- Visual Studio Code
+
 ### Documentação passo-a-passo
+
+1. Clone o projeto na sua máquina e siga os passos para cada pasta, tanto no back-end quanto no front-end.
+
+#### Back-end
+
+2. No Eclipse vá em "File -> Import -> Maven -> Existing maven projects", aperte em "Next" e selecione onde está a pasta que foi extraida no passo anterior.
+
+3. Na parte de "Project" selecione o arquivo "pom.xml...:jar" aperte em "Finish" e aguarde a IDE importar as dependências.
+
+4. Com o projeto importado vá em "src/main/resources -> application.properties", altere seu nome de usuário e senha para que o projeto possa instanciar o banco de dados.
+```
+spring.datasource.username=<usuário do mysql>
+spring.datasource.password=<senha do mysql>
+```
+5. Salve as mudanças, em seguida vá em "src/main/java -> br.com.brunocarol.transpco -> TranspcoApplication.java" clique com botão direito e siga "Run As" -> "Java Application", agora aguarde todo o processo de build do sistema.
+
+#### Front-end 
+
+2. Instale o Node.js
+
+3. Selecione a pasta transpco-web no Visual Studio Code.
+
+4. Abre o terminal e digite os comandos para instalação de pacotes e dependências:
+```
+npm install
+npm install vue
+npm install -g @vue/cli
+```
+
+5. Em seguida ainda no terminal rode o servidor executando:
+```
+npm run serve -- --port 8081
+```
+
+6. Depois do servidor inicializar, abra seu navegador em [http://localhost:8081/](http://localhost:8081/).
 
 ### Demostração
 
