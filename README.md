@@ -25,7 +25,7 @@ Ferramentas utilizadas:
 
 ### Documentação passo-a-passo
 
-1. Clone o projeto na sua máquina e siga os passos para cada pasta, tanto no back-end quanto no front-end.
+1. Clone o projeto na sua máquina, descompacte os arquivos e siga os passos para cada pasta, tanto no back-end quanto no front-end.
 
 #### Back-end
 
