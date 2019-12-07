@@ -1,6 +1,6 @@
 # transportadora-pao-com-ovo-v2
 
-### Descrição
+### - Descrição
 
 Projeto da disciplina de Programação WEB, professor Thiago Santana Batista.
 
@@ -23,7 +23,7 @@ Ferramentas utilizadas:
 - MySQL Workbench
 - Visual Studio Code
 
-### Documentação passo-a-passo
+### - Documentação passo-a-passo
 
 1. Clone o projeto na sua máquina e siga os passos para cada pasta, tanto no back-end quanto no front-end.
 
@@ -60,7 +60,7 @@ npm run serve -- --port 8081
 
 6. Depois do servidor inicializar, abra seu navegador em [http://localhost:8081/](http://localhost:8081/).
 
-### Demostração
+### - Demostração
 
 ![1](https://user-images.githubusercontent.com/34866806/70369044-0831e180-1892-11ea-91b5-76926d6122d0.PNG)
 &nbsp;
