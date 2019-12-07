@@ -1,5 +1,24 @@
 # transportadora-pao-com-ovo-v2
-Projeto da disciplina programação WEB usando Spring Boot e Vue.js.
+
+### Descrição
+
+Projeto da disciplina de Programação WEB, professor Thiago Santana Batista.
+
+> Continuação desse projeto [Versão 1 utilizando Spring Boot + Thymeleaf + JPA + Hibernate](https://github.com/meoprogramar/transportadora-pao-com-ovo-v1).
+
+O projeto foi planejado para ser desenvolvido em 4 sprints. Da 1° até a 3° sprint foi usado Spring Boot + Thymeleaf em multiple-page application, na última sprint metade dos casos de usos deveriam ser desenvolvidos usando Spring Boot como API + Node.js + Vue.js.
+
+> Na sprint final o professor realizou um sorteio para que os grupo trocassem de projeto, por isso o código desse projeto em Spring Boot está diferente da [Versão 1 utilizando Spring Boot + Thymeleaf + JPA + Hibernate](https://github.com/meoprogramar/transportadora-pao-com-ovo-v1).
+
+Tecnologias utilizadas:
+- Spring Boot 2
+- Node.js
+- Vue.js
+- JPA
+- Hibernate
+- MySQL
+
+### Documentação passo-a-passo
 
 ### Demostração
 
